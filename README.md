@@ -12,8 +12,8 @@
 
 
 # Быстрый старт:
-- Клонируйте репозиторий: git clone https://github.com/YauhenKavalchuk/css3-basics.git
-- Перейдите в папку с проектом cd css3-basics
+- Клонируйте репозиторий: https://github.com/monaxovdulov/riddles_of_the_king.git
+- Перейдите в папку с проектом cd riddles_of_the_king
 - Перейдите в нужную ветку соответствующую уроку:
   - git checkout lesson_01
   - git checkout lesson_02
