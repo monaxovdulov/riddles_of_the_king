@@ -1,1 +1,1 @@
-# riddles_of_the_king
+# Riddles of the king
