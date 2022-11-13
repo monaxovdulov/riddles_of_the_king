@@ -63,6 +63,7 @@ THIRD_RIDDLE = """ПОСЛЕДНЯЯ ЗАГАДКА
 3 - Времена года
 """
 
+quest_state = None
 
 user_choice = input(BACKSTORY_OF_THE_GAME)
 
@@ -135,8 +136,14 @@ elif user_choice == "2":
 
     if attempts >= 0:
         print("Что ж, а ты не такой уж и простой крестьянин, я помилую тебя так уж и быть!")
+        quest_state = True
     else:
         print("ТЫ ПОТРАТИЛ ВСЕ СВОИ ПОПЫТКИ И БУДЕШЬ ПОВЕШЕН!!!!")
+        quest_state = False
 
 else:
     print("- Чудаковатый Король -\nЯ не давал тебе такого выбора, казнить его!")
+    quest_state = False
+
+if quest_state:
+    pass
